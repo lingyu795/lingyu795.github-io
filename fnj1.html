@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>八年级三十八班反内卷公约</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=ZCOOL+XiaoWei&display=swap');
+
+        body {
+            font-family: 'Noto Serif SC', serif;
+            background: radial-gradient(circle at top left, #f5f6fa 0%, #dfe9f3 40%, #fefefe 100%);
+            margin: 0;
+            padding: 0;
+            color: #2e2e2e;
+            line-height: 1.9;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 120px 20px 100px;
+            background: radial-gradient(circle at 30% 30%, #203a43, #0f2027, #2c5364);
+            color: #f8f9fa;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* 动态星光背景效果 */
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+            background-size: 60px 60px;
+            animation: twinkle 6s linear infinite;
+        }
+
+        @keyframes twinkle {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: 60px 60px;
+            }
+        }
+
+        header h1 {
+            font-size: 3.6em;
+            margin-bottom: 18px;
+            color: #ffe66d;
+            text-shadow: 0 0 15px rgba(255, 230, 109, 0.8), 0 0 35px rgba(255, 255, 255, 0.5);
+            letter-spacing: 4px;
+            position: relative;
+            z-index: 2;
+            animation: glowIn 2.5s ease-in-out;
+        }
+
+        header p {
+            font-size: 1.5em;
+            color: #e8edf2;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            position: relative;
+            z-index: 2;
+            animation: fadeSlideUp 2.5s ease-out;
+        }
+
+        @keyframes glowIn {
+            0% {
+                opacity: 0;
+                text-shadow: none;
+                transform: scale(0.8);
+            }
+
+            60% {
+                opacity: 1;
+                text-shadow: 0 0 20px rgba(255, 230, 109, 0.6);
+            }
+
+            100% {
+                transform: scale(1);
+                text-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+            }
+        }
+
+        @keyframes fadeSlideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        main {
+            max-width: 940px;
+            margin: 80px auto;
+            background: rgba(255, 255, 255, 0.88);
+            padding: 70px 80px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1.6s ease-out;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #30475e;
+            border-left: 8px solid #ffd166;
+            padding-left: 14px;
+            margin-top: 55px;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+        }
+
+        p,
+        li {
+            font-size: 1.15em;
+        }
+
+        p {
+            text-indent: 2em;
+            margin: 18px 0;
+        }
+
+        ul {
+            margin-left: 3em;
+            line-height: 1.9;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: #666;
+            padding: 60px 10px 90px;
+            font-size: 1em;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            border-top: 2px solid #dcdcdc;
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        footer span {
+            display: block;
+            margin-top: 6px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 700px) {
+            main {
+                padding: 40px 25px;
+            }
+
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>八年级三十八班反内卷公约</h1>
+        <p>理性学习 · 健康成长 · 团结互助</p>
+    </header>
+
+    <main>
+        <h2>一、前言</h2>
+        <p>
+            在现代教育环境中，学生间的过度竞争与攀比现象层出不穷，导致学习焦虑、身心失衡与效率下降。为了重拾学习的初心，维护班级的团结与和谐，我们代表八年级三十八班全体成员共同起草本《四中共同体反内卷公约》，旨在倡导理性学习、科学进步、心理健康与互助成长的价值观。
+        </p>
+
+        <h2>二、公约宗旨</h2>
+        <ul>
+            <li>学习应以效率与理解为核心，而非时长与表面勤奋；</li>
+            <li>竞争应基于自我提升，而非相互攀比；</li>
+            <li>成绩不是唯一标准，成长才是最终目标；</li>
+            <li>团结合作、互帮互助是班级的真正力量。</li>
+        </ul>
+
+        <h2>三、学习行为准则</h2>
+        <ul>
+            <li>避免无意义的学习内耗，拒绝“卷笔记” “卷作业” 的形式主义；</li>
+            <li>少做课外习题，减少班级焦虑（特指刘思源）</li>
+            <li>作息规律，不以牺牲睡眠换取学习时间；</li>
+            <li>专注课堂，提高理解力与思维深度；</li>
+            <li>积极分享学习方法，促进知识共建；</li>
+            <li>尊重差异，不以成绩高低论优劣。</li>
+        </ul>
+
+        <h2>四、班级文化与心理关怀</h2>
+        <p>
+            我们将建设以“温暖、尊重、理性”为核心的班级文化，鼓励同学以积极心态面对挑战，彼此理解、互相支持。面对压力与失败时，勇于倾诉、理性应对，共同维护心理健康与集体荣誉。
+        </p>
+
+        <h2>五、共同愿景</h2>
+        <p>
+            我们希望通过本公约，让“反内卷”不只是口号，而成为学习生活的共识与行动。让学习回归热爱，让努力更加高效，让班级成为充满信任、互助与温度的集体。
+        </p>
+
+        <h2>六、承诺宣言</h2>
+        <p>
+            如果您签约，我们八年级三十八班的签约者将自觉遵守本《反内卷公约》，
+            以理性、专注、友善的态度面对学习与成长的每一天，用实际行动创造真正的学习平等与精神自由。
+        </p>
+    </main>
+
+    <footer>
+        <span>© 2025 综合国家外交平台 | 玲玉 版权所有</span>
+        <span>施行日期：UTF-8 2025.10.21</span>
+    </footer>
+</body>
+
+</html>
